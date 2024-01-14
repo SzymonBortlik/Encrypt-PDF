@@ -91,6 +91,7 @@ Partial Class Form1
         Me.ForgetMP.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red
         Me.ForgetMP.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ForgetMP.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ForgetMP.ForeColor = System.Drawing.Color.Transparent
         Me.ForgetMP.Location = New System.Drawing.Point(0, 502)
         Me.ForgetMP.Name = "ForgetMP"
         Me.ForgetMP.Size = New System.Drawing.Size(70, 25)

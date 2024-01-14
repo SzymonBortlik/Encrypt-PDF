@@ -27,10 +27,10 @@
     <MapFileExtensions>true</MapFileExtensions>
     <TargetCulture>en-GB</TargetCulture>
     <ProductName>Encrypt-PDF</ProductName>
-    <PublisherName>szymon.bortlik%40gmail.com</PublisherName>
-    <SuiteName>szymon.bortlik%40gmail.com</SuiteName>
+    <PublisherName>szymon.bortlik%40uk.bnpparibas.com</PublisherName>
+    <SuiteName>szymon.bortlik%40uk.bnpparibas.com</SuiteName>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationRevision>1</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -87,6 +87,12 @@
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -158,64 +164,6 @@
   <ItemGroup>
     <None Include=".editorconfig" />
     <None Include="Encrypt-PDF_TemporaryKey.pfx" />
-    <None Include="Resources\install\Application Files\Encrypt-PDF_1_0_0_0\AxInterop.AcroPDFLib.dll.deploy">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\install\Application Files\Encrypt-PDF_1_0_0_0\Encrypt-PDF.application">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\install\Application Files\Encrypt-PDF_1_0_0_0\Encrypt-PDF.exe.config.deploy" />
-    <None Include="Resources\install\Application Files\Encrypt-PDF_1_0_0_0\Encrypt-PDF.exe.deploy">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\install\Application Files\Encrypt-PDF_1_0_0_0\Encrypt-PDF.exe.manifest">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\install\Application Files\Encrypt-PDF_1_0_0_0\Interop.AcroPDFLib.dll.deploy">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\install\Application Files\Encrypt-PDF_1_0_0_0\Resources\concrt140.dll.deploy">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\install\Application Files\Encrypt-PDF_1_0_0_0\Resources\enc.ico.deploy">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\install\Application Files\Encrypt-PDF_1_0_0_0\Resources\fix-qdf.exe.deploy">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\install\Application Files\Encrypt-PDF_1_0_0_0\Resources\msvcp140.dll.deploy">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\install\Application Files\Encrypt-PDF_1_0_0_0\Resources\msvcp140_1.dll.deploy">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\install\Application Files\Encrypt-PDF_1_0_0_0\Resources\msvcp140_2.dll.deploy">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\install\Application Files\Encrypt-PDF_1_0_0_0\Resources\msvcp140_atomic_wait.dll.deploy">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\install\Application Files\Encrypt-PDF_1_0_0_0\Resources\msvcp140_codecvt_ids.dll.deploy">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\install\Application Files\Encrypt-PDF_1_0_0_0\Resources\qpdf.exe.deploy">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\install\Application Files\Encrypt-PDF_1_0_0_0\Resources\qpdf29.dll.deploy">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\install\Application Files\Encrypt-PDF_1_0_0_0\Resources\vcruntime140.dll.deploy">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\install\Application Files\Encrypt-PDF_1_0_0_0\Resources\vcruntime140_1.dll.deploy">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\install\Application Files\Encrypt-PDF_1_0_0_0\Resources\zlib-flate.exe.deploy">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\install\Encrypt-PDF.application">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
@@ -248,9 +196,6 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\install\setup.exe">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="Resources\concrt140.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

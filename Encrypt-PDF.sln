@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Encrypt-PDF", "Encrypt-PDF.vbproj", "{AF8A1FF0-A53F-434E-B93A-0EC743C704E4}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Encrypt-PDF Setup", "Setup.vdproj", "{B9B48755-D3E2-45F0-86C2-DC15FFE743EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{AF8A1FF0-A53F-434E-B93A-0EC743C704E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF8A1FF0-A53F-434E-B93A-0EC743C704E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF8A1FF0-A53F-434E-B93A-0EC743C704E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9B48755-D3E2-45F0-86C2-DC15FFE743EB}.Debug|Any CPU.ActiveCfg = Debug
+		{B9B48755-D3E2-45F0-86C2-DC15FFE743EB}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
