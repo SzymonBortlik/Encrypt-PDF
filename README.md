@@ -6,7 +6,7 @@
 #
 # Software create TEMP folder on C:\ drive - Temp files and password file are stored there
 #
-# Because i am using Activ-X AcroPDFlib library - Adobre Reader has to be installed
+# Because i am using Activ-X AcroPDFlib library - Adobe Reader has to be installed
 #
 # To open the file you can Drag and Drop on the form. 
 #
