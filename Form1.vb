@@ -4,6 +4,8 @@
 ' Encrypt PDF files using AES 256 bit Encryption Standard
 ' It's only GUI for free qpdf command line software.
 '
+' This software ONLY encrypt pdf files - nothing more
+' Acrobat Reader has to be installed to be able to use AcroPDF.dll
 
 Imports System.IO
 Imports System.Text
@@ -26,15 +28,15 @@ Public Class Form1
 
             FileIO.FileSystem.CreateDirectory(temp)
 
-        Else
+            'Else
 
-            pdfs = Directory.GetFiles(temp, "*.pdf", SearchOption.TopDirectoryOnly)
+            '    pdfs = Directory.GetFiles(temp, "*.pdf", SearchOption.TopDirectoryOnly)
 
-            For Each pdf In pdfs
+            '    For Each pdf In pdfs
 
-                FileIO.FileSystem.DeleteFile(pdf)
+            '        FileIO.FileSystem.DeleteFile(pdf)
 
-            Next
+            '    Next
 
         End If
 
@@ -56,8 +58,11 @@ Public Class Form1
         If OpenFileDialog1.ShowDialog() = System.Windows.Forms.DialogResult.OK Then
 
             input = OpenFileDialog1.FileName
-            infilename = Path.GetFileName(input)
 
+            'for testing
+            'infilename = Path.GetFileName(input)
+
+            'Acrobat Reader
             AxAcroPDF1.LoadFile(input)
             AxAcroPDF1.Visible = True
 
@@ -94,7 +99,6 @@ Public Class Form1
                     arguments = "--encrypt" + " " + pass + " " + pass + " 256 -- " + tempinput + " " + tempoutput
 
                     Process.Start(Application.StartupPath + "/Resources/qpdf.exe", arguments)
-
                     System.Threading.Thread.Sleep(2000)
 
                     If FileIO.FileSystem.FileExists(tempoutput) = True Then
