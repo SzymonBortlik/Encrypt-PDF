@@ -10,4 +10,4 @@
 #
 # To open the file you can Drag and Drop on the form. 
 #
-#
+# Licence - FREE for ALL
