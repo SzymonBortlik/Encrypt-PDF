@@ -12,7 +12,7 @@ Imports System.Text
 
 Public Class Form1
 
-    Dim input, infilename, output, pass, arguments, pdfs() As String
+    Dim input, output, pass, arguments, pdfs() As String
     Dim temp = "c:\TEMP\"
     Dim tempinput = "C:\TEMP\original.pdf"
     Dim tempoutput = "C:\TEMP\encrypted.pdf"
@@ -28,15 +28,23 @@ Public Class Form1
 
             FileIO.FileSystem.CreateDirectory(temp)
 
-            'Else
+        Else
 
-            '    pdfs = Directory.GetFiles(temp, "*.pdf", SearchOption.TopDirectoryOnly)
+            If FileIO.FileSystem.FileExists(tempinput) Or FileIO.FileSystem.FileExists(tempoutput) = True Then
 
-            '    For Each pdf In pdfs
+                FileIO.FileSystem.DeleteFile(tempinput)
+                FileIO.FileSystem.DeleteFile(tempoutput)
 
-            '        FileIO.FileSystem.DeleteFile(pdf)
+            End If
 
-            '    Next
+            'for testing
+            'pdfs = Directory.GetFiles(temp, "*.pdf", SearchOption.TopDirectoryOnly)
+
+            'For Each pdf In pdfs
+
+            '    FileIO.FileSystem.DeleteFile(pdf)
+
+            'Next
 
         End If
 

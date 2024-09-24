@@ -106,10 +106,10 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.AxAcroPDF1.Enabled = True
-        Me.AxAcroPDF1.Location = New System.Drawing.Point(625, 0)
+        Me.AxAcroPDF1.Location = New System.Drawing.Point(445, 0)
         Me.AxAcroPDF1.Name = "AxAcroPDF1"
         Me.AxAcroPDF1.OcxState = CType(resources.GetObject("AxAcroPDF1.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.AxAcroPDF1.Size = New System.Drawing.Size(364, 527)
+        Me.AxAcroPDF1.Size = New System.Drawing.Size(441, 527)
         Me.AxAcroPDF1.TabIndex = 17
         Me.AxAcroPDF1.Visible = False
         '
@@ -122,7 +122,7 @@ Partial Class Form1
         Me.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange
         Me.BackgroundImage = Global.Encrypt_PDF.My.Resources.Resources.iStock_612828352
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(989, 527)
+        Me.ClientSize = New System.Drawing.Size(884, 527)
         Me.Controls.Add(Me.ForgetMP)
         Me.Controls.Add(Me.AxAcroPDF1)
         Me.Controls.Add(Me.LabEnterP)
