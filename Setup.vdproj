@@ -15,18 +15,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_133CB376F0F4F1102A1D1187D01E0652"
-        "OwnerKey" = "8:_A079A9DACB0C4EDB97FA1D2CDB23BC05"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_2AED27D21B27E6AF219E7476D841B864"
-        "OwnerKey" = "8:_A079A9DACB0C4EDB97FA1D2CDB23BC05"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_2F16021FD8BF4577AA18E448C13B43A4"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -41,18 +29,6 @@
         {
         "MsmKey" = "8:_3E2D0231B1E0462AAA8CFCE6E8EFA09F"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_3F785F7D850AD09BF27E38A7697AD1AD"
-        "OwnerKey" = "8:_133CB376F0F4F1102A1D1187D01E0652"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_3F785F7D850AD09BF27E38A7697AD1AD"
-        "OwnerKey" = "8:_A079A9DACB0C4EDB97FA1D2CDB23BC05"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -131,36 +107,6 @@
         {
         "MsmKey" = "8:_D430A3DD729748AFB5C3EE2FB885E7E2"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E174B0C08623384CBEC088C988E69E4F"
-        "OwnerKey" = "8:_3F785F7D850AD09BF27E38A7697AD1AD"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A079A9DACB0C4EDB97FA1D2CDB23BC05"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_133CB376F0F4F1102A1D1187D01E0652"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_3F785F7D850AD09BF27E38A7697AD1AD"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2AED27D21B27E6AF219E7476D841B864"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -250,68 +196,6 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_133CB376F0F4F1102A1D1187D01E0652"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_133CB376F0F4F1102A1D1187D01E0652"
-                    {
-                    "Name" = "8:AxInterop.AcroPDFLib.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:AxInterop.AcroPDFLib.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_A1DD3D7A92894CB89BF6B9BBB424F75E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2AED27D21B27E6AF219E7476D841B864"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
-                "ScatterAssemblies"
-                {
-                    "_2AED27D21B27E6AF219E7476D841B864"
-                    {
-                    "Name" = "8:System.Net.Http.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:System.Net.Http.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_A1DD3D7A92894CB89BF6B9BBB424F75E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2F16021FD8BF4577AA18E448C13B43A4"
             {
             "SourcePath" = "8:Resources\\iStock-612828352.jpg"
@@ -370,37 +254,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3F785F7D850AD09BF27E38A7697AD1AD"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Interop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_3F785F7D850AD09BF27E38A7697AD1AD"
-                    {
-                    "Name" = "8:Interop.AcroPDFLib.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Interop.AcroPDFLib.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_A1DD3D7A92894CB89BF6B9BBB424F75E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6E0AE149EFC44746AFE4F0B892A089AF"
@@ -643,26 +496,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E174B0C08623384CBEC088C988E69E4F"
-            {
-            "SourcePath" = "8:AcroPDF.dll"
-            "TargetName" = "8:AcroPDF.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_A1DD3D7A92894CB89BF6B9BBB424F75E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
         }
         "FileType"
         {
@@ -693,7 +526,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_A1DD3D7A92894CB89BF6B9BBB424F75E"
             {
-            "DefaultLocation" = "8:[ProgramFiles64Folder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -742,12 +575,12 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Encrypt-PDF"
         "ProductCode" = "8:{8E5702F4-AC01-4E81-9336-8A9089F2139B}"
-        "PackageCode" = "8:{1D5B6146-D9AD-4EA4-867B-CED8C162268A}"
-        "UpgradeCode" = "8:{8AFC49D7-7473-41AB-9370-4A4ECA7484A5}"
+        "PackageCode" = "8:{1D231800-EF64-41D5-A547-1ED5BA7DC244}"
+        "UpgradeCode" = "8:{C571FCFF-F439-46E7-805E-61DC847D80EE}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
-        "DetectNewerInstalledVersion" = "11:TRUE"
+        "DetectNewerInstalledVersion" = "11:FALSE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.1"
         "Manufacturer" = "8:BNP Paribas"
@@ -763,10 +596,10 @@
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
-        "TargetPlatform" = "3:1"
+        "TargetPlatform" = "3:0"
         "PreBuildEvent" = "8:"
         "PostBuildEvent" = "8:"
-        "RunPostBuildEvent" = "3:0"
+        "RunPostBuildEvent" = "3:1"
         }
         "Registry"
         {
