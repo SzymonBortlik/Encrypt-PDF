@@ -1,18 +1,19 @@
 ﻿'
-' This software has been written by szymon.bortlik@uk.bnpparibas.com
+' This software has been written by szymon.bortlik@gmail.com
 '
 ' Encrypt PDF files using AES 256 bit Encryption Standard
-' It's only GUI for free qpdf command line software.
+' It's only GUI for free qpdf command line software - Apache License 2.0
 '
-' This software ONLY encrypt pdf files - nothing more
-' Acrobat Reader has to be installed to be able to use AcroPDF.dll
+' This software ONLY encrypt pdf files - nothing more so far
+' Acrobat Reader needed
 
 Imports System.IO
 Imports System.Text
 
 Public Class Form1
 
-    Dim input, output, pass, arguments, pdfs() As String
+    Dim input, output, pass, arguments
+    'Dim pdfs() As String
     Dim temp = "c:\TEMP\"
     Dim tempinput = "C:\TEMP\original.pdf"
     Dim tempoutput = "C:\TEMP\encrypted.pdf"
@@ -37,8 +38,9 @@ Public Class Form1
 
             End If
 
-            'for testing
+            'for testing - del all pdf
             'pdfs = Directory.GetFiles(temp, "*.pdf", SearchOption.TopDirectoryOnly)
+            'pdfs = Directory.GetFiles(temp, "*.pdf", SearchOption.AllDirectories)
 
             'For Each pdf In pdfs
 

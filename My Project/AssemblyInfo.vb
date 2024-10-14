@@ -11,10 +11,10 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("Encrypt-PDF")>
 <Assembly: AssemblyDescription("Encrypt-PDF")>
-<Assembly: AssemblyCompany("szymon.bortlik@uk.bnpparibas.com")>
+<Assembly: AssemblyCompany("szymon.bortlik@gmail.com")>
 <Assembly: AssemblyProduct("Encrypt-PDF")>
 <Assembly: AssemblyCopyright("Copyright ©  2024")>
-<Assembly: AssemblyTrademark("szymon.bortlik@uk.bnpparibas.com")>
+<Assembly: AssemblyTrademark("szymon.bortlik@gmail.com")>
 
 <Assembly: ComVisible(True)>
 

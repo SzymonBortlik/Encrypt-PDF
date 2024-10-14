@@ -94,7 +94,7 @@ Partial Class Form1
         Me.ForgetMP.ForeColor = System.Drawing.Color.Transparent
         Me.ForgetMP.Location = New System.Drawing.Point(0, 502)
         Me.ForgetMP.Name = "ForgetMP"
-        Me.ForgetMP.Size = New System.Drawing.Size(70, 25)
+        Me.ForgetMP.Size = New System.Drawing.Size(72, 25)
         Me.ForgetMP.TabIndex = 18
         Me.ForgetMP.Text = "♥FMP♥"
         Me.ForgetMP.UseVisualStyleBackColor = False
@@ -106,10 +106,10 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.AxAcroPDF1.Enabled = True
-        Me.AxAcroPDF1.Location = New System.Drawing.Point(445, 0)
+        Me.AxAcroPDF1.Location = New System.Drawing.Point(467, 0)
         Me.AxAcroPDF1.Name = "AxAcroPDF1"
         Me.AxAcroPDF1.OcxState = CType(resources.GetObject("AxAcroPDF1.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.AxAcroPDF1.Size = New System.Drawing.Size(441, 527)
+        Me.AxAcroPDF1.Size = New System.Drawing.Size(419, 527)
         Me.AxAcroPDF1.TabIndex = 17
         Me.AxAcroPDF1.Visible = False
         '

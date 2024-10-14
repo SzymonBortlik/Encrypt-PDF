@@ -27,10 +27,10 @@
     <MapFileExtensions>true</MapFileExtensions>
     <TargetCulture>en-GB</TargetCulture>
     <ProductName>Encrypt-PDF</ProductName>
-    <PublisherName>szymon.bortlik%40uk.bnpparibas.com</PublisherName>
-    <SuiteName>szymon.bortlik%40uk.bnpparibas.com</SuiteName>
+    <PublisherName>szymon.bortlik%40gmail.com</PublisherName>
+    <SuiteName>szymon.bortlik%40gmail.com</SuiteName>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationRevision>6</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -86,7 +86,7 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>false</SignAssembly>
