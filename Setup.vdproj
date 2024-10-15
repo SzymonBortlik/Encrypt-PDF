@@ -749,15 +749,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Encrypt-PDF"
-        "ProductCode" = "8:{C5956F6C-4448-4F59-9E47-550427BCCAAC}"
-        "PackageCode" = "8:{E056E4B5-0048-4F26-9AEC-F0A146B3F4D1}"
+        "ProductCode" = "8:{6925E067-6C22-4499-986C-A794D70D46C2}"
+        "PackageCode" = "8:{EE6FCD8E-4F36-4A66-AD50-5FAAF4D980C0}"
         "UpgradeCode" = "8:{C571FCFF-F439-46E7-805E-61DC847D80EE}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:FALSE"
-        "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.5"
+        "InstallAllUsers" = "11:TRUE"
+        "ProductVersion" = "8:1.6"
         "Manufacturer" = "8:Encrypt-PDF"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -1299,7 +1299,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_A079A9DACB0C4EDB97FA1D2CDB23BC05"
             {
-            "SourcePath" = "8:obj\\Release\\Encrypt-PDF.exe"
+            "SourcePath" = "8:obj\\Debug\\Encrypt-PDF.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_A1DD3D7A92894CB89BF6B9BBB424F75E"

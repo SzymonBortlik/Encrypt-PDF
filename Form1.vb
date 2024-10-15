@@ -108,12 +108,12 @@ Public Class Form1
 
                     arguments = "--encrypt" + " " + pass + " " + pass + " 256 -- " + tempinput + " " + tempoutput
 
-                    Process.Start(Application.StartupPath + "/Resources/qpdf.exe", arguments)
-                    System.Threading.Thread.Sleep(2000)
+                    Process.Start(Application.StartupPath + "/Resources/qpdf.exe", arguments).WaitForExit()
+
+                    'System.Threading.Thread.Sleep(2000)
 
                     If FileIO.FileSystem.FileExists(tempoutput) = True Then
 
-                        'comment here
                         passfile = Computer.FileSystem.OpenTextFileWriter("c:\temp\password", True)
                         passfile.WriteLine(DateTime.Now.ToString() + " - " + input + " - " + output + " - " + pass)
                         passfile.Close()
