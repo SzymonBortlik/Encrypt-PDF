@@ -31,10 +31,21 @@ Public Class Form1
 
         Else
 
-            If FileIO.FileSystem.FileExists(tempinput) Or FileIO.FileSystem.FileExists(tempoutput) = True Then
+            If FileIO.FileSystem.FileExists(tempinput) = True Then
 
                 FileIO.FileSystem.DeleteFile(tempinput)
+
+            End If
+
+            If FileIO.FileSystem.FileExists(tempoutput) = True Then
+
                 FileIO.FileSystem.DeleteFile(tempoutput)
+
+            End If
+
+            If FileIO.FileSystem.FileExists("c:\temp\password") = True Then
+
+                FileIO.FileSystem.DeleteFile("c:\temp\password")
 
             End If
 
