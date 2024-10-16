@@ -18,3 +18,7 @@ Main window - ![Capture](https://github.com/user-attachments/assets/b4e989d3-091
 FMP - bottom left - Forgot my password :)
 
 Apache License 2.0 - FREE for ALL.
+
+
+Download:
+https://github.com/SzymonBortlik/Encrypt-PDF/raw/refs/heads/master/Setup/Setup.msi
