@@ -1,4 +1,4 @@
-Encrypt-PDF
+**Encrypt-PDF**
 
 This software has been written by szymon.bortlik@gmail.com.
 Encrypt PDF uses AES 256 bit Encryption Standard.
@@ -18,8 +18,7 @@ Main window
 
 FMP - bottom left - Forgot my password :)
 
-Apache License 2.0 - FREE for ALL.
+**Download** - https://github.com/SzymonBortlik/Encrypt-PDF/raw/refs/heads/master/Setup/Setup.msi
 
 
-Download:
-https://github.com/SzymonBortlik/Encrypt-PDF/raw/refs/heads/master/Setup/Setup.msi
+**Apache License 2.0 - FREE for ALL**.
