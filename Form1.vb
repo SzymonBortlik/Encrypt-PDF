@@ -210,4 +210,14 @@ Public Class Form1
     End Sub
 
 
+    Private Sub MainForm_FormClosed(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosedEventArgs) Handles Me.FormClosed
+
+        If FileIO.FileSystem.FileExists("c:\temp\password") = True Then
+
+            FileIO.FileSystem.DeleteFile("c:\temp\password")
+
+        End If
+
+    End Sub
+
 End Class

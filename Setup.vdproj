@@ -701,7 +701,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_A1DD3D7A92894CB89BF6B9BBB424F75E"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -749,15 +749,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Encrypt-PDF"
-        "ProductCode" = "8:{6925E067-6C22-4499-986C-A794D70D46C2}"
-        "PackageCode" = "8:{EE6FCD8E-4F36-4A66-AD50-5FAAF4D980C0}"
+        "ProductCode" = "8:{BE23A148-57F2-4C7E-BAD0-3DD89601D369}"
+        "PackageCode" = "8:{456198B8-6B0C-4B99-BB67-2582A219FEA0}"
         "UpgradeCode" = "8:{C571FCFF-F439-46E7-805E-61DC847D80EE}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:FALSE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.6"
+        "ProductVersion" = "8:1.1"
         "Manufacturer" = "8:Encrypt-PDF"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -765,7 +765,7 @@
         "Subject" = "8:"
         "ARPCONTACT" = "8:szymon.bortlik@gmail.com"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:Encrypt-PDF"
+        "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:https://github.com/SzymonBortlik/Encrypt-PDF"
         "ARPPRODUCTICON" = "8:_7DF370E1E12A42B7B4C626A0E211D26B"
         "ARPIconIndex" = "3:0"
@@ -1299,7 +1299,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_A079A9DACB0C4EDB97FA1D2CDB23BC05"
             {
-            "SourcePath" = "8:obj\\Debug\\Encrypt-PDF.exe"
+            "SourcePath" = "8:obj\\Release\\Encrypt-PDF.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_A1DD3D7A92894CB89BF6B9BBB424F75E"
