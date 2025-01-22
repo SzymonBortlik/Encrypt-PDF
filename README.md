@@ -24,3 +24,8 @@ Default Installation Location -  C:\Program Files (x86)\Encrypt-PDF\
 
 
 **Apache License 2.0 - FREE for ALL**.
+
+
+**Changes:**
+- version 1.0 - software release
+- version 1.1 - cosmetic changes 
