@@ -1,4 +1,4 @@
-Encrypt-PDF
+**Encrypt-PDF**
 
 This software has been written by szymon.bortlik@gmail.com.
 Encrypt PDF uses AES 256 bit Encryption Standard.
@@ -7,6 +7,18 @@ This software ONLY encrypt pdf files - nothing more so far.
 Acrobat Reader needed.
 
 Software create TEMP folder on C:\ drive - Temp files and password file are stored there.
-To open the file you can Drag and Drop on the form. 
+Password file is automatically deleted when program starts. 
+To open .*pdf file you can Drag and Drop on the form. 
 
-Apache License 2.0 - FREE for ALL.
+Default Installation Location -  C:\Program Files (x86)\Encrypt-PDF\Encrypt-PDF
+Shortcuts - Menu start and Desktop ![Capture1](https://github.com/user-attachments/assets/f5940b17-a074-468d-85c3-4652716b9f2c)
+
+Main window
+![Capture](https://github.com/user-attachments/assets/b4e989d3-0915-4df7-8013-20e8eaca8d3e)
+
+FMP - bottom left - Forgot my password :)
+
+**Download** - https://github.com/SzymonBortlik/Encrypt-PDF/raw/refs/heads/master/Setup/Setup.msi
+
+
+**Apache License 2.0 - FREE for ALL**.
