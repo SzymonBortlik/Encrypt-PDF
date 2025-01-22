@@ -27,5 +27,5 @@ Default Installation Location -  C:\Program Files (x86)\Encrypt-PDF\
 
 
 **Changes:**
-- version 1.0 - software release
-- version 1.1 - cosmetic changes 
+- version 1.0 - Software release
+- version 1.1 - A few cosmetic changes and an optimized algorithm
